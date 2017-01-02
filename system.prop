@@ -9,8 +9,8 @@ ro.sf.lcd_density=240
 ro.lcd_min_brightness=30
 
 # disable hw vsync
-debug.hwui.render_dirty_regions=false
-debug.sf.no_hw_vsync=1
+debug.hwui.render_dirty_regions=true
+debug.sf.no_hw_vsync=0
 persist.sys.use_dithering=2
 persist.sys.strictmode.disable=1
 
